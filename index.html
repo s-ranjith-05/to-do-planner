@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Planner</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Planner</h1>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th><input type="text" class="input-name" id="" placeholder="Enter Task Name"></th>
+                <th><input type="date" class="input-date" placeholder="Enter Due Date"></th>
+                <th><button class="add-btn" onclick="addinfo();">ADD</button></th>
+            </tr>
+            <tr class="title-text">
+                <th>TASK NAME</th>
+                <th>DUE DATE</th>
+                <th>REMOVE</th>
+            </tr>
+        </thead>
+        <p class="required"></p>
+        <tbody class="render-text">
+        </tbody>
+    </table>
+    <script src="js/script.js"></script>
+</body>
+</html>
